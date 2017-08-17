@@ -35,10 +35,12 @@
         console.log("ID Token: " + id_token);
       };
     </script>
+    <div class= "movesu"> 
     <a href="#" onclick="signOut();">Sign out</a>
+      <div class= "movesu"> 
 <script>
   
-  <div class= "movesu"> 
+  
     
   function signOut() {
     var auth2 = gapi.auth2.getAuthInstance();
@@ -46,7 +48,7 @@
       console.log('User signed out.');
     });
   }
-  </div> 
+  
 </script>
   </body>
 </html>
